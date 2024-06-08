@@ -15,3 +15,11 @@ p{
     text-align: center;
     font-size: 24px;
 }
+
+.gameContainer{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
