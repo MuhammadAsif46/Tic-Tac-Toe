@@ -27,10 +27,12 @@ p{
     grid-template-rows: repeat(3, 10vw);
     grid-template-columns: repeat(3, 10vw);
     position: relative;
+    background-color: rgb(38, 120, 226);
+    /* background-color: #219ebc; */
 }
 
 .box{
-    border: 2px solid black;
+    border: 1px solid #fff;
     font-size: 8vw;
     cursor: pointer;
     display: flex;
@@ -39,11 +41,17 @@ p{
 }
 
 .box:hover{
-    background-color: rgb(242, 234, 250);
+    background-color: rgb(5, 76, 168);
+    
 }
+
 
 .info {
     font-size: 22px;
+}
+.text{
+    color: #fff;
+    font-size: 4rem;
 }
 
 .gameInfo{
@@ -78,11 +86,12 @@ p{
 
 #reset {
     margin: 0 23px;
-    padding: 1px 18px;
-    background: #f3e7f9;
+    padding: 5px 18px;
+    background-color: rgb(5, 76, 168);
     border-radius: 6px;
+    color: #fff;
+    border: none;
     cursor: pointer;
-    font-family: 'Baloo Bhaina 2';
     font-size: 15px;
     font-weight: bolder;
 }
@@ -92,8 +101,9 @@ p{
     height: 3px;
     width: 0;
     position: absolute;
-    background-color: #911d91;
+    background-color: #caf0f8;
     transition: width 1s ease-in-out;
+    border-radius: 50px;
 }
 
 @media screen and (max-width: 950px)
